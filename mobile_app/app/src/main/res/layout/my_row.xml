@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time_db"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/secondary"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="People: "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/people_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Male: "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="73dp" />
+                <TextView
+                    android:id="@+id/male_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Female: "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="73dp" />
+                <TextView
+                    android:id="@+id/female_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="(7-14): "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/g1_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="(15-24): "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/g2_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="(25-54): "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:id="@+id/g3_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="(55-80): "
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp" />
+                <TextView
+                    android:id="@+id/g4_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

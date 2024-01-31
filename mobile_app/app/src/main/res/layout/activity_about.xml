@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/device_icon"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Device Information"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Device ID: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SCD0001"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Firmware Version: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/fw_ver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/mobile"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Mobile App Information"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Version: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="0.0.1"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Day Release: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="01/01/2024"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/desktop"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Desktop App Information"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Version: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="0.0.1"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Day Release: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="01/01/2024"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/setting_bg"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/author"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Author Information"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Project: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Intelligent Control System"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Hoàng Thành Đạt"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="ID: "
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="20119214"
+                    android:textColor="@color/secondary"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include layout="@layout/nav_drawer" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

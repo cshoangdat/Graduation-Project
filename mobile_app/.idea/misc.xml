@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable-v24/header_background.xml" value="0.1095" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.159" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/about.xml" value="0.157" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/bg_track.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/btn_auto.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/btn_toggle_shape.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/control.xml" value="0.157" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/custom_btn_toggle_device.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/custom_togggle_btn.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/custom_toggle_btn_on.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/custom_toggle_device_off.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/custom_toggle_device_on.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/done_icon.xml" value="0.1095" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/header_background.xml" value="0.1085" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/header_bg.xml" value="0.1085" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.157" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_switch_off.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_switch_off_disable.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_switch_on.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_switch_on_disable.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/ic_thumb.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/password_icon.xml" value="0.157" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/setting_bg.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/toggle_air.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/toggle_air_con.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/toggle_door.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/toggle_fan.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/toggle_led.xml" value="0.1525" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/white_rectangle_background.xml" value="0.147" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/drawable/white_rectangle_bg.xml" value="0.147" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_about.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_camera.xml" value="0.2" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_chart.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_confirm.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_confirm2.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_control.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_setting.xml" value="0.2" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_sign_in.xml" value="0.1838392475416845" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/activity_storage.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/fragment_about.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/fragment_chart.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/fragment_control.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/fragment_home.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/fragment_setting.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/list_item.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/my_row.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/nav_drawer.xml" value="0.2" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/nav_header.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/layout/toolbar.xml" value="0.195382642154767" />
+        <entry key="..\:/Documents/final_project/mobile_app/app/src/main/res/menu/nav_menu.xml" value="0.195382642154767" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

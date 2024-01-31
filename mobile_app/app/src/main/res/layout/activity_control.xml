@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".ControlActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background_app">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/white_rectangle_bg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/white_rectangle_bg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="70dp"
+                        android:text="AUTO MODE"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/secondary"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        />
+
+                    <Switch
+                        android:id="@+id/mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="10dp"
+                        android:checked="false"
+                        android:enabled="true"
+                        android:scaleX="2.8"
+                        android:scaleY="2.8"
+                        android:thumb="@drawable/ic_thumb"
+                        android:track="@drawable/bg_track" />
+
+                </LinearLayout>
+
+                <com.ekn.gruzer.gaugelibrary.FullGauge
+                    android:id="@+id/fullGauge"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/white_rectangle_bg"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEMPERATURE"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/secondary"
+                    android:textSize="20sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/autoAC"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/custom_toggle_btn_shape"
+                        android:textOn="Auto"
+                        android:textOff="Auto"
+                        android:textColor="@color/white"
+                        />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <ToggleButton
+                        android:id="@+id/coolAC"
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/custom_toggle_btn_shape"
+                        android:textOn="Cool"
+                        android:textOff="Cool"
+                        android:textColor="@color/white"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_gravity="center"
+                        android:text="Heating"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/secondary"
+                        android:textSize="20dp"
+                        />
+
+                    <com.google.android.material.slider.RangeSlider
+                        android:id="@+id/temperatureRangeSlider"
+                        android:layout_width="310dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:value="20"
+                        android:valueFrom="16"
+                        android:valueTo="30"
+                        android:stepSize="1"
+                        app:labelBehavior="gone"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ToggleButton
+                    android:id="@+id/led_switch"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/custom_toggle_btn_device"
+                    android:drawableTop="@drawable/toggle_led"
+                    android:textOn=""
+                    android:textOff=""
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    />
+                <ToggleButton
+                    android:id="@+id/fan_switch"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custom_toggle_btn_device"
+                    android:drawableTop="@drawable/toggle_fan"
+                    android:textOn=""
+                    android:textOff=""
+                    android:textColor="@color/white"
+                    />
+                <ToggleButton
+                    android:id="@+id/air_switch"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custom_toggle_btn_device"
+                    android:drawableTop="@drawable/toggle_air"
+                    android:textOn=""
+                    android:textOff=""
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ToggleButton
+                    android:id="@+id/door_switch"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/custom_toggle_btn_device"
+                    android:drawableTop="@drawable/toggle_door"
+                    android:textOn=""
+                    android:textOff=""
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="90dp"
+                    />
+                <ToggleButton
+                    android:id="@+id/airCon_switch"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custom_toggle_btn_device"
+                    android:drawableTop="@drawable/toggle_air_con"
+                    android:textOn=""
+                    android:textOff=""
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include layout="@layout/nav_drawer" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

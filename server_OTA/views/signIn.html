@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styleIndex.css">
+    <title>OTA Services</title>
+</head>
+<body> 
+  <div class = "header">
+    <h2 class = "header-content">Intelligent Control System</h2>
+  </div>
+  <div class = "main">
+    <div class = content>
+      <h1>Upload New Firmware Bin File</h1>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" class = "file" style="color: #FFFFFF;"/>
+        <input type="submit" value="Tải lên"/>
+      </form>
+      <div class = "btn">
+        <!-- <a href="https://serverota.auth.ap-southeast-2.amazoncognito.com/logout?client_id=3c9gf581993kabt925calusq08&logout_uri=http://localhost:8000/signOut.html" class = "button">Log out</a> -->
+        <a href="https://serverota.auth.ap-southeast-2.amazoncognito.com/login?client_id=3c9gf581993kabt925calusq08&response_type=code&scope=email+openid&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2FsignIn.html" class = "button">Log out</a>     
+      </div>
+    </div>
+  </div> 
+</body>
